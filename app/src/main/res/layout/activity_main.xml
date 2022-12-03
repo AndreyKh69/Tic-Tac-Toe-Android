@@ -28,27 +28,30 @@
             android:orientation="horizontal">
 
             <ImageButton
-                android:id="@+id/mainactivity_btn0"
+                android:id="@+id/mainactivity_btn00"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:tag="0"
+                tools:ignore="SpeakableTextPresentCheck"
                 tools:srcCompat="@tools:sample/avatars" />
 
             <ImageButton
-                android:id="@+id/mainactivity_btn1"
+                android:id="@+id/mainactivity_btn01"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:tag="1"
+                tools:ignore="SpeakableTextPresentCheck"
                 tools:srcCompat="@tools:sample/avatars" />
 
             <ImageButton
-                android:id="@+id/mainactivity_btn2"
+                android:id="@+id/mainactivity_btn02"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:tag="2"
+                tools:ignore="SpeakableTextPresentCheck"
                 tools:srcCompat="@tools:sample/avatars" />
         </LinearLayout>
 
@@ -59,27 +62,30 @@
             android:orientation="horizontal">
 
             <ImageButton
-                android:id="@+id/mainactivity_btn3"
+                android:id="@+id/mainactivity_btn10"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:tag="3"
+                tools:ignore="SpeakableTextPresentCheck"
                 tools:srcCompat="@tools:sample/avatars" />
 
             <ImageButton
-                android:id="@+id/mainactivity_btn4"
+                android:id="@+id/mainactivity_btn11"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:tag="4"
+                tools:ignore="SpeakableTextPresentCheck"
                 tools:srcCompat="@tools:sample/avatars" />
 
             <ImageButton
-                android:id="@+id/mainactivity_btn5"
+                android:id="@+id/mainactivity_btn12"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:tag="5"
+                tools:ignore="SpeakableTextPresentCheck"
                 tools:srcCompat="@tools:sample/avatars" />
         </LinearLayout>
 
@@ -90,27 +96,30 @@
             android:orientation="horizontal">
 
             <ImageButton
-                android:id="@+id/mainactivity_btn6"
+                android:id="@+id/mainactivity_btn20"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:tag="6"
+                tools:ignore="SpeakableTextPresentCheck,ImageContrastCheck"
                 tools:srcCompat="@tools:sample/avatars" />
 
             <ImageButton
-                android:id="@+id/mainactivity_btn7"
+                android:id="@+id/mainactivity_btn21"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:tag="7"
+                tools:ignore="SpeakableTextPresentCheck"
                 tools:srcCompat="@tools:sample/avatars" />
 
             <ImageButton
-                android:id="@+id/mainactivity_btn8"
+                android:id="@+id/mainactivity_btn22"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:tag="8"
+                tools:ignore="SpeakableTextPresentCheck"
                 tools:srcCompat="@tools:sample/avatars" />
         </LinearLayout>
     </LinearLayout>

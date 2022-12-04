@@ -31,28 +31,19 @@
                 android:id="@+id/mainactivity_btn00"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:tag="0"
-                tools:ignore="SpeakableTextPresentCheck"
-                tools:srcCompat="@tools:sample/avatars" />
+                android:layout_weight="1" />
 
             <ImageButton
                 android:id="@+id/mainactivity_btn01"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:tag="1"
-                tools:ignore="SpeakableTextPresentCheck"
-                tools:srcCompat="@tools:sample/avatars" />
+                android:layout_weight="1" />
 
             <ImageButton
                 android:id="@+id/mainactivity_btn02"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:tag="2"
-                tools:ignore="SpeakableTextPresentCheck"
-                tools:srcCompat="@tools:sample/avatars" />
+                android:layout_weight="1" />
         </LinearLayout>
 
         <LinearLayout
@@ -65,28 +56,19 @@
                 android:id="@+id/mainactivity_btn10"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:tag="3"
-                tools:ignore="SpeakableTextPresentCheck"
-                tools:srcCompat="@tools:sample/avatars" />
+                android:layout_weight="1" />
 
             <ImageButton
                 android:id="@+id/mainactivity_btn11"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:tag="4"
-                tools:ignore="SpeakableTextPresentCheck"
-                tools:srcCompat="@tools:sample/avatars" />
+                android:layout_weight="1" />
 
             <ImageButton
                 android:id="@+id/mainactivity_btn12"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:tag="5"
-                tools:ignore="SpeakableTextPresentCheck"
-                tools:srcCompat="@tools:sample/avatars" />
+                android:layout_weight="1" />
         </LinearLayout>
 
         <LinearLayout
@@ -99,28 +81,20 @@
                 android:id="@+id/mainactivity_btn20"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:tag="6"
-                tools:ignore="SpeakableTextPresentCheck,ImageContrastCheck"
-                tools:srcCompat="@tools:sample/avatars" />
+                android:layout_weight="1" />
 
             <ImageButton
                 android:id="@+id/mainactivity_btn21"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:tag="7"
-                tools:ignore="SpeakableTextPresentCheck"
-                tools:srcCompat="@tools:sample/avatars" />
+                android:layout_weight="1" />
 
             <ImageButton
                 android:id="@+id/mainactivity_btn22"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:tag="8"
-                tools:ignore="SpeakableTextPresentCheck"
-                tools:srcCompat="@tools:sample/avatars" />
+                android:layout_weight="1" />
+
         </LinearLayout>
     </LinearLayout>
 
@@ -131,9 +105,9 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
+        android:backgroundTint="@android:color/holo_green_light"
         android:text="Play"
         android:textSize="24sp"
-        android:backgroundTint="@android:color/holo_green_light"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -146,20 +120,78 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
+        android:src="@drawable/status"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
-        app:srcCompat="@drawable/status" />
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
 
     <ImageView
-        android:id="@+id/imageViewLine"
+        android:id="@+id/imageViewVertLine1"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:visibility="gone"
+        android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="@+id/linearLayout"
         app:layout_constraintEnd_toEndOf="@+id/linearLayout"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/linearLayout"
         app:srcCompat="@drawable/mark3" />
+
+    <ImageView
+        android:id="@+id/imageViewVertLine2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="@+id/linearLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/linearLayout"
+        app:srcCompat="@drawable/mark4" />
+
+    <ImageView
+        android:id="@+id/imageViewVertLine3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="@+id/linearLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/linearLayout"
+        app:srcCompat="@drawable/mark5" />
+
+    <ImageView
+        android:id="@+id/imageViewCrossRightLine"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="@+id/linearLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/linearLayout"
+        app:srcCompat="@drawable/mark1" />
+
+    <ImageView
+        android:id="@+id/imageViewCrossLeftLine"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="@+id/linearLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/linearLayout"
+        app:srcCompat="@drawable/mark2" />
+
+    <ImageView
+        android:id="@+id/imageViewHorizLine1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:rotation="@integer/material_motion_duration_long_1"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="@+id/linearLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/linearLayout"
+        app:srcCompat="@drawable/mark1" />
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

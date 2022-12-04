@@ -80,6 +80,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             PlayerWins(0);
         } else {
             firstPlayer = !firstPlayer;
+            if (firstPlayer) {
+                ImageView imageView = findViewById(R.id.imageviewStatus);
+                imageView.setImageResource(R.drawable.xplay);
+            } else {
+                ImageView imageView = findViewById(R.id.imageviewStatus);
+                imageView.setImageResource(R.drawable.oplay);
+            }
         }
 
     }
@@ -113,7 +120,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
 
             ImageView imageView = findViewById(R.id.imageviewStatus);
-            imageView.setImageResource(R.drawable.status);
+            imageView.setImageResource(R.drawable.xplay);
             roundCount = 0;
             firstPlayer = true;
 

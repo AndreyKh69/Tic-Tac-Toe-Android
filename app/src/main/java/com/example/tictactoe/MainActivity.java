@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         buttonReset.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                ((Button) view).setText("RESET");
+                ((Button) view).setText("play AGAIN");
                 resetBoard();
             }
         });
@@ -177,7 +177,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
 
         if (field[0][2] == (field[1][1]) &&
-                field[0][0] == (field[2][0]) &&
+                field[0][2] == (field[2][0]) &&
                 field[0][2] != ("")) {
 
             // set win line
